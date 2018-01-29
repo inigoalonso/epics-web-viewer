@@ -15,7 +15,7 @@ To start this service, you need to do four things:
 Each of these will need to be executed in an environment that has the following variables set:
 ```bash
 export POSTGRES_DB=the_name_of_the_database
-export POSTGRES_NAME=the_postgresql_username
+export POSTGRES_USER=the_postgresql_username
 export POSTGRES_PASSWORD=the_super_secret_postgres_password
 ```
 
